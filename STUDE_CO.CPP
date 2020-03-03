@@ -19,7 +19,7 @@
 	    m1=a;
 	    m2=b;
 	    m3=c;
-	   marks=m1+m2+m3;
+	  
 	   }
 	   void read()
 	   {
@@ -28,6 +28,7 @@
 	   }
 	 void calculate()
 	  {
+		  marks=m1+m2+m3;
 	    per=(marks)/300*100;
 	   }
 	 void show()
@@ -42,7 +43,7 @@
 	 student b1(45,45,45),b2,b3;
 	 b3.read();
 	 b1.calculate();
-	 b1.show();
+	 b1.show();  // 135 and 
 	 b2.show();
 	 b3.calculate();
 	 b3.show();
